@@ -1,0 +1,76 @@
+/*===================
+    basic properties starts
+=======================*/
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+/*===================
+    basic properties ends
+=======================*/
+
+
+
+/*===================
+    navigation starts
+=======================*/
+
+
+
+
+
+.navbar{
+    padding: 25px;
+    background-color: lightslategrey !important;                /* instruction is mendatory and overlaps bootstrap instuction */
+    border-bottom: none !important;
+}
+
+
+
+.collapse li a{
+    color: black !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px;
+    transition: all 1s ;
+}
+
+.collapse li a:hover{
+    color: whitesmoke !important;
+    font-size: 16px ;
+}
+
+.navbar-toggle{
+    border: 1px solid white !important;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-toggle:hover{
+    background-color: dodgerblue!important;
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: transparent !important;
+}
+
+.location{
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    transition: all 0.5s ease-in;
+}
+
+.location:hover{
+    border-color: b lack;
+}
+
+/*===================
+    navigation ends
+=======================*/
+
+
+
